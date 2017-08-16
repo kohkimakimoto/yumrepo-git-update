@@ -20,13 +20,13 @@ enabled=0
 #### Usage
 
 ```
-$ yum install --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
+$ sudo yum install --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
 ```
 
 or 
 
 ```
-$ yum update --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
+$ sudo yum update --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
 ```
 
 ### el7-x86_64
@@ -45,13 +45,13 @@ enabled=0
 #### Usage
 
 ```
-$ yum install --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
+$ sudo yum install --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
 ```
 
 or 
 
 ```
-$ yum update --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
+$ sudo yum update --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
 ```
 
 ## Maintainer
