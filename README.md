@@ -17,18 +17,6 @@ enabled=0
 " > /etc/yum.repos.d/kohkimakimoto-git-update.repo'
 ```
 
-#### Usage
-
-```
-$ sudo yum install --enablerepo=kohkimakimoto-git-update git
-```
-
-or 
-
-```
-$ sudo yum update --enablerepo=kohkimakimoto-git-update git
-```
-
 ### el7-x86_64
 
 #### Installation
@@ -42,7 +30,7 @@ enabled=0
 " > /etc/yum.repos.d/kohkimakimoto-git-update.repo'
 ```
 
-#### Usage
+## Usage
 
 ```
 $ sudo yum install --enablerepo=kohkimakimoto-git-update git
