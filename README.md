@@ -9,24 +9,24 @@ My personal YUM repository for providing git RPMs.
 #### Installation
 
 ```
-$ sudo sh -c 'echo "[kohkimakimoto-git-update-el6-x86_64]
-name=kohkimakimoto-git-update-el6-x86_64
+$ sudo sh -c 'echo "[kohkimakimoto-git-update]
+name=kohkimakimoto-git-update
 baseurl=https://kohkimakimoto.github.io/yumrepo-git-update/el6-x86_64
 gpgcheck=0
 enabled=0
-" > /etc/yum.repos.d/kohkimakimoto-git-update-el6-x86_64.repo'
+" > /etc/yum.repos.d/kohkimakimoto-git-update.repo'
 ```
 
 #### Usage
 
 ```
-$ sudo yum install --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
+$ sudo yum install --enablerepo=kohkimakimoto-git-update git
 ```
 
 or 
 
 ```
-$ sudo yum update --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
+$ sudo yum update --enablerepo=kohkimakimoto-git-update git
 ```
 
 ### el7-x86_64
@@ -34,24 +34,24 @@ $ sudo yum update --enablerepo=kohkimakimoto-git-update-el6-x86_64 git
 #### Installation
 
 ```
-$ sudo sh -c 'echo "[kohkimakimoto-git-update-el7-x86_64]
-name=kohkimakimoto-git-update-el7-x86_64
+$ sudo sh -c 'echo "[kohkimakimoto-git-update]
+name=kohkimakimoto-git-update
 baseurl=https://kohkimakimoto.github.io/yumrepo-git-update/el7-x86_64
 gpgcheck=0
 enabled=0
-" > /etc/yum.repos.d/kohkimakimoto-git-update-el7-x86_64.repo'
+" > /etc/yum.repos.d/kohkimakimoto-git-update.repo'
 ```
 
 #### Usage
 
 ```
-$ sudo yum install --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
+$ sudo yum install --enablerepo=kohkimakimoto-git-update git
 ```
 
 or 
 
 ```
-$ sudo yum update --enablerepo=kohkimakimoto-git-update-el7-x86_64 git
+$ sudo yum update --enablerepo=kohkimakimoto-git-update git
 ```
 
 ## Maintainer
